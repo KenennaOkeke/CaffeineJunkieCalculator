@@ -1,0 +1,105 @@
+{
+    "gameName": "caffeinesimulator",
+    "gameDisplayName": "Caffiene Simulator",
+    "inputData": {
+        "inputs": [
+            {
+                "name": "coffee",
+                "label": "Cups of Coffee",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "black_tea",
+                "label": "Cups of Black Tea",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "green_tea",
+                "label": "Cups of Green Tea",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "white_tea",
+                "label": "Cups of White Tea",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "sodiepop",
+                "label": "Cans of Sodie-Pops",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "energy_drink",
+                "label": "Energy Drinks",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            },
+            {
+                "name": "energy_shot",
+                "label": "Energy Shots",
+                "type": "number",
+                "default": 0,
+                "min": 0,
+                "max": 100
+            }
+        ]
+    },
+    "graphData": {
+        
+    },
+    "outputData": {
+        "outputs": [
+            {
+                "name": "empty_results",
+                "label": "Results",
+                "type": "empty"
+            },
+            {
+                "name": "min_c",
+                "label": "Min. Caffeine (mg)",
+                "type": "integer"
+            },
+            {
+                "name": "average",
+                "label": "Average Caffeine (mg)",
+                "type": "integer"
+            },
+            {
+                "name": "max_c",
+                "label": "Max Caffeine (mg)",
+                "type": "integer"
+            }
+        ]
+    },
+    "pageData": {
+        "pages": [
+            {
+                "name": "disclaimer",
+                "title": "Disclaimer",
+                "content": ""
+            },
+            {
+                "name": "story",
+                "title": "What is this?",
+                "content": ""
+            }
+        ]
+    }
+}
